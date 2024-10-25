@@ -1,0 +1,39 @@
+{
+  "name": "@crimson206/json-transformer",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Customizable JSON transformation utility with function processing capabilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "keywords": [
+    "json",
+    "transform",
+    "typescript",
+    "serialization",
+    "object-mapper"
+  ],
+  "author": "crimson206",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crimson206/json-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crimson206/json-ts/issues"
+  },
+  "homepage": "https://github.com/crimson206/json-ts#readme",
+  "devDependencies": {
+    "ts-morph": "^24.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
